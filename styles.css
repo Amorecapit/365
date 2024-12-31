@@ -2,35 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: rgb(92, 15, 15);
-}
-
-h1 {
-  font-size: 2.5em; /* Increase the font size */
-  color: wheat;
-  text-align: center; /* Center the text */
-  margin: 20px 0; /* Add vertical margin for spacing */
-  font-family: "Arial", sans-serif; /* Font style */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow for depth */
-  opacity: 0; /* Start with the text invisible */
-  transform: scale(0.8); /* Start with a smaller scale */
-  animation: fadeInScale 2s infinite; /* Apply the animation infinitely */
-}
-
-/* Keyframes for the fade-in and scale effect */
-@keyframes fadeInScale {
-  0% {
-    opacity: 0; /* Invisible at the start */
-    transform: scale(0.8); /* Smaller scale at the start */
-  }
-  50% {
-    opacity: 1; /* Fully visible at the midpoint */
-    transform: scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-}
+}
 
 .slider {
   position: relative;
